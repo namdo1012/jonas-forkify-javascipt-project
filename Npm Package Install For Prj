@@ -1,0 +1,25 @@
+1. Install Nodejs and Npm 
+* Install Npm: 
+	-> apt-get install npm
+ 	-> sudo apt-get update
+* Install Nodejs:
+ 	-> sudo n lastest 
+	-> sudo n @version (Ex: sudo n 10. )
+* Make an package.json file with npm: 
+	-> npm init
+2. Install Webpack
+	-> npm install webpack --save-dev (*--save-dev: deveplopment tool)
+3. Install Webpack command line interface:
+	-> npm install webpack-cli --save-dev 
+4. Install Webpack dev server (automatically reload the page when we save our code): 
+	-> npm install webpack-dev-server --save-dev
+5. Webpack html-plugin ???
+	-> npm install html-webpack-plugin --save-dev
+6. Install Babel
+	-> npm install babel-preset-env babel-loader --save-dev
+	-> npm install @babel/core --save
+	-> Install Babel polyfill: npm install babel-polyfill --save (*--save: dependecy in code)
+7. Install and run Sass
+	-> "npm install node-sass --save-dev"
+	(if not use this command: "npm install --save-dev node-sass --unsafe-perm=true --allow-root)"
+	-> Compile to CSS: "node-sass input:path output:path"
